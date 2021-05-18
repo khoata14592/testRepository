@@ -16,3 +16,4 @@ jobs:
         auditOn: push
         publishToken: ${{ secrets.SEMGREP_APP_TOKEN }}
         publishDeployment: 1138
+        dangerously-allow-arbitrary-code-execution-from-rules: true
